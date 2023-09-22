@@ -18,9 +18,9 @@ public class GameLoop implements Runnable {
            try {
                Thread.sleep(1000); // 1초 대기
            } catch (InterruptedException e) {
-               e.printStackTrace();
+        	   e.printStackTrace();
            }
        }
-       System.out.println("게임 종료");
+       System.out.println("게임을 종료합니다.");
    }
 }
