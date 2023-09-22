@@ -29,7 +29,7 @@ public class TodoList_hashMap {
 		for(int i = 0; i < tasks.size(); i++) {
 			System.out.println((i + 1) + "." + tasks.get(i));
 		}
-	}
+	} 
 	
 	public static void main(String[] args) {
 		TodoList_hashMap todoList = new TodoList_hashMap();
