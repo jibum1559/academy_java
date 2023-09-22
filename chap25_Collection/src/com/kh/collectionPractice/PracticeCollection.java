@@ -11,8 +11,8 @@ public class PracticeCollection {
 
 	public static void main(String[] args) {
 		PracticeCollection pc = new PracticeCollection();
-//		pc.practiceLste();
-//		pc.practiceSet();
+		pc.practiceLste();
+		pc.practiceSet();
 		pc.practiceMap();
 		
 	}

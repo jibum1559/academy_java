@@ -27,7 +27,7 @@ public class PersonView {
 				System.out.println("사용자의 이름은 두글자 이상이여야 합니다. 다시 입력해주세요");
 
 			} else {
-				
+				  
 				nameCheck = true;
 			
 			}

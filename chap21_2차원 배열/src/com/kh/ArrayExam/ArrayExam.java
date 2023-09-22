@@ -67,6 +67,8 @@ public class ArrayExam {
 		}
 	}
 
+	
+		
 	public void practice4() {
 		int count = 0;
 		String[] students = {"강건강","남나나","도대담","류라라","문미미", "박보배", "송성실","윤예의", "진재주", "차천축", "피풍표", "홍하하"};
