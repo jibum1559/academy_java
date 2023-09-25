@@ -43,8 +43,8 @@ public class PlayerCharacter {
 //setter에서 검증한다 얘기를 하는지
 	public void setHealth(int health) {
 		// 만약에 체력이 0이라면 죽이고 체력이 1이상 이면 살리자
+		this.health = health;
 		if(health >= 1 ) { // 체력이 1 이상일 경우
-			this.health = health;
 		} else { // 체력이 0 이하라면 체력을 표시할 가치도 없다.
 			System.out.println("체력이 없습니다...");
 		}
@@ -65,19 +65,19 @@ public class PlayerCharacter {
 	
 	//캐릭터 정보 출력
 	public void displayInfo() {
-		System.out.println("캐릭터 정보 : " + name);
+		System.out.println("캐릭터 정보 : " + getName());
 		System.out.println("체력 정보 : " + health);
-		System.out.println("공격 파워 : " + attackPower);
+		System.out.println("공격 파워 : " + getAttackPower());
 	}
 	
 	//캐릭터 공격하는 메서드
 	public void attack(PlayerCharacter target) {
-		System.out.println(getName() + "는 해서 " + target.getName() + " for " + attackPower + "데미지를 줬습니다.");
+		System.out.println(getName() + "는 해서 " + target.getName() + "에게 " + getAttackPower() + "데미지를 줬습니다.");
 		System.out.println("공격했습니다.");
 	}
 	
 	//다른 캐릭터로부터 공격 받았을 때 메서드
 	public void takeDamage(int damage) {
-		System.out.println("[" + name + "]가" + damage + " 공격 받았습니다.");
+		System.out.println("[" + getName() + "]가" + damage + " 공격 받았습니다.");
 	}
 }
