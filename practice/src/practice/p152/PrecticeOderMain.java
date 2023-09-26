@@ -2,11 +2,7 @@ package practice.p152;
 
 public class PrecticeOderMain {
 	long Onum;
-	String id;
-	String date;
-	String name;
-	String Pnum;
-	String address;
+	String id,date,name,Pnum,address;
 	
 	public PrecticeOderMain(long Onum, String id, String date, String name, String Pnum, String address) {
 		this.Onum = Onum;
