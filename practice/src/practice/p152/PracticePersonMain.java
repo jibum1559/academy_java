@@ -1,6 +1,6 @@
 package practice.p152;
 
-public class PracticePerson {
+public class PracticePersonMain {
 	int age;
 	String name;
 	boolean isMarried;

@@ -3,7 +3,7 @@ package practice.p152;
 public class PracticePersonRun {
 
 	public static void main(String[] args) {
-		PracticePerson person1 = new PracticePerson();
+		PracticePersonMain person1 = new PracticePersonMain();
 		
 		person1.setAge(40);
 		person1.setName("James");
