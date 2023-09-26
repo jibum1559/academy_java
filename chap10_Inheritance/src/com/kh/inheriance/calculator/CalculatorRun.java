@@ -14,7 +14,8 @@ public class CalculatorRun extends CalculatorForMod {
 		int firstInput = sc.nextInt();
 		System.out.println("두 번째 숫자를 입력해주세요");
 		int secondInput = sc.nextInt();
-
+		
+//		Calculator cal = new Calculator();
 		CalculatorForMod cal = new CalculatorForMod();
 		cal.num1 = firstInput;
 		cal.num2 = secondInput;
@@ -23,7 +24,7 @@ public class CalculatorRun extends CalculatorForMod {
 		int result1 = cal.substruct();
 		int result2 = cal.multiply();
 		int result3 = cal.divide();
-		int result4 = cal.mod(cal.num1, cal.num2);
+		int result4 = cal.mod();
 
 		System.out.println("Add : " + result);
 		System.out.println("substruct : " + result1);

@@ -1,7 +1,5 @@
 package com.kh.inheriance.calculator;
 
-import java.util.Scanner;
-
 public class Calculator {
 
 	int num1,num2;
@@ -27,7 +25,7 @@ public class Calculator {
 			System.out.println("0으로 나눌 수 없습니다.");
 			return 0;
 		}
-		return num1 /num2;
+		return num1 / num2;
 	}
 	/*나누기에서 몫 이외에 나머지를 보고 싶습니다!!*/
 }
