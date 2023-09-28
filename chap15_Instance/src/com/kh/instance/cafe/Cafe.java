@@ -18,7 +18,7 @@ public class Cafe {
 		System.out.println("크기는 : " + size);
 		
 	if(isSugar) {
-		System.out.println("설탕 추가 : ");
+		System.out.println("설탕 추가해주세요. ");
 	} else {
 		System.out.println("설탕은 넣지 말아주세요.");
 	}

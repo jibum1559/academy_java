@@ -22,13 +22,13 @@ public class StudentMain {
 		System.out.println();
 		
 		//두 번째 학생의 이름과 나이 출력
-		System.out.println("첫 번째 학생의 이름 : " + student[1].name);
-		System.out.println("첫 번째 학생의 나이 : " + student[1].age);
+		System.out.println("두 번째 학생의 이름 : " + student[1].name);
+		System.out.println("두 번째 학생의 나이 : " + student[1].age);
 		System.out.println();
 		
 		//세 번째 학생의 이름과 나이 출력
-		System.out.println("첫 번째 학생의 이름 : " + student[2].name);
-		System.out.println("첫 번째 학생의 나이 : " + student[2].age);
+		System.out.println("세 번째 학생의 이름 : " + student[2].name);
+		System.out.println("세 번째 학생의 나이 : " + student[2].age);
 		System.out.println();
 		
 		//for문을 이용해서 첫 번째 학생 ~ 세 번째 학생까지 출력하기
@@ -39,11 +39,4 @@ public class StudentMain {
 				
 			}
 		}
-		
-
-		
-		
-		
 	}
-
-
