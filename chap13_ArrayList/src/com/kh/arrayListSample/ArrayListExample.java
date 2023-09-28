@@ -32,7 +32,7 @@ public class ArrayListExample {
 		String firstFruits = fruits.get(0);
 		System.out.println("첫 번째 과일 : " + firstFruits);
 		String fourFruits = fruits.get(2);
-		System.out.println("네 번째 과일 : " + fourFruits);
+		System.out.println("세 번째 과일 : " + fourFruits);
 		
 		//요소 수정할거야
 		fruits.set(2,"체리");
@@ -44,12 +44,22 @@ public class ArrayListExample {
 		 
 		// ArrayList 순회해서 요소출력
 		System.out.println("모든 과일 목록");
-	//	for(   초기문 ; 조건식 ; 증감식){
+
+		int size2 = fruits.size();
+		System.out.println("현재 과일 목록의 크기 : " + size2);
+
+	//	for(   초기문  ;   조건식   ; 증감식){
+		for(int i = 0; i < size2; i++ ) {
+			fruits.get(i);
+			System.out.println("그냥 for문 : " + fruits.get(i));
+		}
+		
 	//	for(요소의데이터타입 우리가 정할 변수명: 목록이 들어있는 변수명)
 		for(	String      fruit   :  fruits) {
-			System.out.println(fruits);
 		}
+		System.out.println("향상된 for문 : " + fruits);
 		// ArrayList 비우기
+		
 		fruits.clear();
 		System.out.println("모든 과일을 제거한 후 : " + fruits);
 		

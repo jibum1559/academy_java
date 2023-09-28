@@ -26,10 +26,13 @@ class MyClass {
 	MyClass(int value) {
 		this.myField = value; //값을 대입해서 사용할 것으로 참조변수이다.
 	}
+	
 	void printValue() {
 		System.out.println("myField의 값 : " + this.myField);
 	}
 }
+
+
 public class ThisMain {
 
 	public static void main(String[] args) {

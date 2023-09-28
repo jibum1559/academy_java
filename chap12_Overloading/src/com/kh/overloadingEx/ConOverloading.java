@@ -28,7 +28,7 @@ public class ConOverloading {
 		this.name = "no name";
 		this.age = newAge;
 	}
-
+	
 	public static void main(String[] args) {
 		//객체이자 인스턴스 생성
 		ConOverloading obj1 = new ConOverloading();
@@ -36,7 +36,6 @@ public class ConOverloading {
 		ConOverloading obj3 = new ConOverloading("3번",3);
 		ConOverloading obj4 = new ConOverloading(4);
 		
-
+		
 	}
-
 }

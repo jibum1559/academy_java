@@ -6,7 +6,7 @@ public class Dog extends Animal {
 	}
 	
 	public void speak() {
-		System.out.println(getName() + " ¸Û¸Û (ÁÖÀÎÀÌÂ¢³×)");
+		System.out.println(getName() + " ’o’o!!(¹äÁÒ!!) ");
 	}
 	
 }

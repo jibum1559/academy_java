@@ -22,6 +22,7 @@ public class ToDoSample {
 		System.out.println("할일 추가 : " + schedule);
 		schedule.add("축구 하기");
 		System.out.println("마지막 할일 : " + schedule);
+		
 
 		schedule.set(0, "동물원 가기");		
 		System.out.println("할일 수정 : " + schedule);

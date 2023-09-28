@@ -9,7 +9,7 @@ public class Child extends Parent{
 	
 	public Child(String name) {
 		super(name); //부모 클래스의 문자열 파라미터 생성자 호출
-		System.out.println("자식 클래스의 문자열 파라미터 생성자입니다.");
+		System.out.println("자식 클래스의 문자열 파라미터 생성자입니다." + name);
 	}
 	
 	public void display() {
