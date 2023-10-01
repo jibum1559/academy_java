@@ -6,8 +6,8 @@ import java.util.List;
 public class ListAndArray {
 
 	public static void main(String[] args) {
-		ListArray1();
 		ListAndArray LAA = new ListAndArray();
+		ListArray1();
 		LAA.ListArray2();
 	}
 	
@@ -16,7 +16,7 @@ public class ListAndArray {
 		int[] intArray = new int[2]; //크기가 2인 정수 배열 생성  //첫 번째부터 값을 정해줘야함 그래서 값을 3개 이상 넣으면 에러가 남
 		intArray[0] = 1;
 		intArray[1] = 2;
-      //intArray[2] = 3;
+     // intArray[2] = 3;
 		
 		//Array 출력
 		System.out.println("Array 요소 : ");
